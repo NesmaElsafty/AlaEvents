@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             ['email' => 'admin@alaevents.com'],
             [
                 'name' => 'Admin',
-                'password' => bcrypt('password'), // Change this password after first login
+                'password' => bcrypt('123456789'), // Change this password after first login
             ]
         );
     }
