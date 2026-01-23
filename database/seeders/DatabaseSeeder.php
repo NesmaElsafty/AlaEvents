@@ -23,5 +23,10 @@ class DatabaseSeeder extends Seeder
                 'password' => bcrypt('123456789'), // Change this password after first login
             ]
         );
+
+        // Seed events
+        $this->call([
+            EventSeeder::class,
+        ]);
     }
 }
